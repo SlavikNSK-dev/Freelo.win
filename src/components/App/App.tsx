@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import s from './App.module.scss';
+import StartPage from 'screens/StartPage/StartPage';
 
 export interface IApp {}
 
@@ -11,9 +12,9 @@ const App: FunctionComponent<IApp> = () => {
 
   return (
     <div className={s.wrapper}>
-      App
+      <StartPage />
     </div>
   );
 };
 
-export default React.memo(App);
+export default App;

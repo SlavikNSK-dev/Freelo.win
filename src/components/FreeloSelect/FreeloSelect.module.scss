@@ -1,0 +1,46 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header {
+  padding: 12px 10px 12px 15px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--dark-1);
+  cursor: pointer;
+}
+
+.dropDown {
+  position: absolute;
+  top: calc(100% + 12px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  .option {
+    padding: 7px 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--dark-1);
+    cursor: pointer;
+
+    &:hover {
+      background: var(--dark-0);
+    }
+    
+    &:nth-child(n) {
+      margin-bottom: 6px;
+    }
+  
+    &:last-child {
+      margin-bottom: 0;
+    }  
+  }
+}

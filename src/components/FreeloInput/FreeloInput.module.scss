@@ -1,0 +1,15 @@
+.input {
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--main-font), sans-serif;
+  font-size: 18px;
+  background: var(--dark-1);
+  color: var(--text-normal);
+  outline: none;
+
+  &::placeholder {
+    color: var(--text-normal);
+  }
+}

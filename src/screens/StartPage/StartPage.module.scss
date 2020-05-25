@@ -1,0 +1,23 @@
+.wrapper {
+  padding-top: 100px;
+}
+
+.searchSummoner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .select {
+    margin-right: 15px;
+    width: 100px;
+  }
+
+  .input {
+    margin-right: 15px;
+    width: 380px;
+  }
+
+  .button {
+    width: 50px;
+  }
+}
